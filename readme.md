@@ -2,12 +2,12 @@
 
 This repository contains an end-to-end pipeline for predicting diabetes risk using clinical and lifestyle data. By combining **Gradient Boosted Decision Trees (GBDT)** with **Domain-Specific Medical Feature Engineering**, the model achieves high diagnostic accuracy on tabular health records.
 
-## 🚀 Key Results
+## Key Results
 - **Final Model:** 70/30 Weighted Ensemble (CatBoost & XGBoost)
 - **Validation Strategy:** 5-Fold Stratified Cross-Validation
 - **Mean CV AUC:** ~0.72 - 0.75+ (Performance varies by data noise)
 
-## 🧬 Methodology: The "Why"
+## Methodology: The "Why"
 
 ### 1. Medical Feature Engineering
 Raw health data often obscures critical physiological patterns. We implemented several "Calculated Biomarkers":
@@ -29,7 +29,7 @@ Instead of a simple train/test split, we used **5-Fold Stratified CV**. This ens
 - `src/model.py`: Implements the CV loop and ensemble blending.
 - `main.py`: The unified entry point for data ingestion to inference.
 
-## 💻 Installation
+## Installation
 1. Clone the repo:
    ```bash
    git clone https://github.com/yourusername/diabetes-prediction.git
