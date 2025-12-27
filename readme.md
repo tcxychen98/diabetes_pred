@@ -2,6 +2,8 @@
 
 This repository contains an end-to-end pipeline for predicting diabetes risk using clinical and lifestyle data. By combining **Gradient Boosted Decision Trees (GBDT)** with **Domain-Specific Medical Feature Engineering**, the model achieves high diagnostic accuracy on tabular health records.
 
+This is also a repository for the [Kaggle Playground Competition Series: Diabetes Prediction (S5E12)](https://www.kaggle.com/competitions/playground-series-s5e12)
+
 ## Key Results
 - **Final Model:** 70/30 Weighted Ensemble (CatBoost & XGBoost)
 - **Validation Strategy:** 5-Fold Stratified Cross-Validation
@@ -50,3 +52,5 @@ Qasrawi, R., Thwib, S., Issa, G., Ghoush, R. A., & Amro, M. (2025). Type 2 diabe
 
 <a id="3">[[3]](https://doi.org/10.1049/htl2.12039)</a>
 Tasin, I., Nabil, T. U., Islam, S., & Khan, R. (2022). Diabetes prediction using machine learning and explainable AI techniques. Healthcare Technology Letters, 10(1–2), 1–10.
+
+###### Copyright © [2025] [halcyon_98]
